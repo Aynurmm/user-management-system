@@ -20,6 +20,6 @@ public interface UserMapper extends EntityMapper<Users, UserResponse> {
     UserResponse toDto(Users user);
 
     @Override
-    List<UserResponse> toDto(List<Users> usersList);
+    List<UserResponse> toDtoList(List<Users> usersList);
 }
 
